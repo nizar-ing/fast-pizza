@@ -30,7 +30,9 @@ const cartSlice = createSlice({
   },
 });
 
-/****************** helper functions*************************/
+/****************** helper selector functions*************************/
+export const getCart = (state) => state.cart.cart;
+
 export const getTotalCartQuantity = (state) =>
   state.cart.cart.reduce((acc, item) => acc + item.quantity, 0);
 
