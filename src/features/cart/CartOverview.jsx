@@ -7,7 +7,9 @@ function CartOverview() {
         <span>23 pizzas</span>
         <span>$23.45</span>
       </p>
-      <p className="space-x-2 text-xs md:text-sm">ILAHI Nizar&copy;2024</p>
+      <p className="space-x-2 text-xs text-yellow-500 md:text-sm">
+        ILAHI Nizar&copy;2024
+      </p>
       <Link to="/cart">Open cart &rarr;</Link>
     </div>
   );
