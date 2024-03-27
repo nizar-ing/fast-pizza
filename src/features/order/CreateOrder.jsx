@@ -42,8 +42,8 @@ const isValidPhone = (str) =>
 function CreateOrder() {
   const [withPriority, setWithPriority] = useState(false);
   const navigation = useNavigation();
-
   const formErrors = useActionData();
+
   const {
     username,
     status: addressStatus,
